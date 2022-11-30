@@ -1,9 +1,9 @@
 <?php
 
-namespace Jaymin\Laravelsettings\app\Facades;
+namespace Kkyoni\Laravelsettings\app\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Jaymin\Laravelsettings\app\SettingsHelper;
+use Kkyoni\Laravelsettings\app\SettingsHelper;
 
 class Setting extends Facade
 {

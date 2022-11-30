@@ -1,12 +1,12 @@
 <?php
 
-namespace Jaymin\Laravelsettings\app\Http\Controllers;
+namespace Kkyoni\Laravelsettings\app\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
-use Jaymin\Laravelsettings\app\Http\Requests\SettingRequest;
-use Jaymin\Laravelsettings\app\Setting;
+use Kkyoni\Laravelsettings\app\Http\Requests\SettingRequest;
+use Kkyoni\Laravelsettings\app\Setting;
 
 class SettingsController extends Controller
 {

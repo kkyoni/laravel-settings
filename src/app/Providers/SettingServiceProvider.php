@@ -1,6 +1,6 @@
 <?php
 
-namespace Jaymin\Laravelsettings\app\Providers;
+namespace Kkyoni\Laravelsettings\app\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

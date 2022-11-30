@@ -1,6 +1,6 @@
 <?php
 
-namespace Jaymin\Laravelsettings\app\Http\Requests;
+namespace Kkyoni\Laravelsettings\app\Http\Requests;
 
 
 use Illuminate\Foundation\Http\FormRequest;

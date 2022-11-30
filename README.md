@@ -1,7 +1,7 @@
 # Laravel Settings
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jaymin/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/jaymin/laravel-settings)
-[![Total Downloads](https://img.shields.io/packagist/dt/jaymin/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/jaymin/laravel-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/kkyoni/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/kkyoni/laravel-settings)
+[![Total Downloads](https://img.shields.io/packagist/dt/kkyoni/laravel-settings.svg?style=flat-square)](https://packagist.org/packages/kkyoni/laravel-settings)
 
 A Laravel package that provides laravel applications settings module which needed in every application.
 
@@ -14,12 +14,12 @@ Supports PHP >= 7.2
 Add the following to your composer file.
 
 `
-"jaymin/laravel-settings": "3.0"
+"kkyoni/laravel-settings": "3.0"
 `
 
 or run the following command:
 ```
-composer require jaymin/laravel-settings --dev
+composer require kkyoni/laravel-settings --dev
 ```
 
 2) config/app.php [no need for this step in laravel 5.5 because of packages auto discovery feature]
@@ -29,7 +29,7 @@ add your new provider to the providers array:
 ```
 'providers' => [
     // ...
-   	\Jaymin\Laravelsettings\app\Providers\SettingServiceProvider::class
+   	\Kkyoni\Laravelsettings\app\Providers\SettingServiceProvider::class
     // ...
   ],
 ```
@@ -39,7 +39,7 @@ add your new provider to the providers array:
 ```
 'aliases' => [
 	// ...
-	'Settings' => \Jaymin\Laravelsettings\app\Facades\Setting::class
+	'Settings' => \Kkyoni\Laravelsettings\app\Facades\Setting::class
     // ...
 ],
 ```

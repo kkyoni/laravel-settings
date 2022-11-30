@@ -1,6 +1,6 @@
 <?php
 
-namespace Jaymin\Laravelsettings\app;
+namespace Kkyoni\Laravelsettings\app;
 
 use Illuminate\Database\Eloquent\Model;
 
