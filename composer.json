@@ -1,0 +1,35 @@
+{
+    "name": "jaymin/laravelsettings",
+    "description": "Simple Settings package for laravel application for composer version 2",
+    "type": "library",
+    "keywords": [
+        "Laravel",
+        "Settings"
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jaymin\\Laravelsettings\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaymin Modi",
+            "email": "hemsbapu9644@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jaymin\\Laravelsettings\\app\\Providers\\SettingServiceProvider"
+            ],
+            "aliases": {
+                "Settings": "Jaymin\\Laravelsettings\\app\\Facades\\Setting"
+            }
+        }
+    }
+}
